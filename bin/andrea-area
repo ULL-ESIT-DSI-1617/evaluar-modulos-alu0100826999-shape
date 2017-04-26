@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var type = process.argv[2];
+var geom = require('@alu0100826999/ull-shape-'+type);
+var opt = JSON.parse(process.argv[3]);
+
+var result = new geom(opt);
+console.log(result.getArea());

@@ -1,0 +1,16 @@
+{
+  "name": "@alu0100826999/ull-shape",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require should"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.3.0",
+    "should": "^11.2.1"
+  }
+}
